@@ -4,7 +4,7 @@
   "description": "coding exercise for my-go",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha './index.test.js'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rt-cff/my-go-code-exercise/issues"
   },
-  "homepage": "https://github.com/rt-cff/my-go-code-exercise#readme"
+  "homepage": "https://github.com/rt-cff/my-go-code-exercise#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
 }
