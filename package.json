@@ -16,7 +16,9 @@
     "url": "https://github.com/rt-cff/my-go-code-exercise/issues"
   },
   "homepage": "https://github.com/rt-cff/my-go-code-exercise#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
+  },
   "devDependencies": {
     "mocha": "^8.3.2",
     "nyc": "^15.1.0"
